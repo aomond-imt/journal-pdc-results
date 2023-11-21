@@ -1,0 +1,296 @@
+[t=0.000,src=n0,grp=def] Parameters:
+[t=0.000,src=n0,grp=def] idle_conso: 1.339
+[t=0.000,src=n0,grp=def] stress_conso: 2.697
+[t=0.000,src=n0,grp=def] comms_conso: 0.16
+[t=0.000,src=n0,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n0,grp=def] tasks_list: [[['t_dr_0', 16.69, None]]]
+[t=0.000,src=n0,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n0,grp=def] nodes_count: 31
+[t=0.000,src=n0,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n0,grp=def] Turned off
+[t=0.000,src=n0,grp=def] Sleeping from 0.0 to 1482.959
+[t=0.000,src=n1,grp=def] Parameters:
+[t=0.000,src=n1,grp=def] idle_conso: 1.339
+[t=0.000,src=n1,grp=def] stress_conso: 2.697
+[t=0.000,src=n1,grp=def] comms_conso: 0.16
+[t=0.000,src=n1,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n1,grp=def] tasks_list: [[['t_dr_1', 1.52, None]]]
+[t=0.000,src=n1,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n1,grp=def] nodes_count: 31
+[t=0.000,src=n1,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n1,grp=def] Turned off
+[t=0.000,src=n1,grp=def] Sleeping from 0.0 to 3124.225
+[t=0.000,src=n2,grp=def] Parameters:
+[t=0.000,src=n2,grp=def] idle_conso: 1.339
+[t=0.000,src=n2,grp=def] stress_conso: 2.697
+[t=0.000,src=n2,grp=def] comms_conso: 0.16
+[t=0.000,src=n2,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n2,grp=def] tasks_list: [[['t_dr_2', 2.29, None]]]
+[t=0.000,src=n2,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n2,grp=def] nodes_count: 31
+[t=0.000,src=n2,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n2,grp=def] Turned off
+[t=0.000,src=n2,grp=def] Sleeping from 0.0 to 3508.346
+[t=0.000,src=n3,grp=def] Parameters:
+[t=0.000,src=n3,grp=def] idle_conso: 1.339
+[t=0.000,src=n3,grp=def] stress_conso: 2.697
+[t=0.000,src=n3,grp=def] comms_conso: 0.16
+[t=0.000,src=n3,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n3,grp=def] tasks_list: [[['t_dr_3', 2.41, None]]]
+[t=0.000,src=n3,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n3,grp=def] nodes_count: 31
+[t=0.000,src=n3,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n3,grp=def] Turned off
+[t=0.000,src=n3,grp=def] Sleeping from 0.0 to 1835.289
+[t=0.000,src=n4,grp=def] Parameters:
+[t=0.000,src=n4,grp=def] idle_conso: 1.339
+[t=0.000,src=n4,grp=def] stress_conso: 2.697
+[t=0.000,src=n4,grp=def] comms_conso: 0.16
+[t=0.000,src=n4,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n4,grp=def] tasks_list: [[['t_dr_4', 1.4, None]]]
+[t=0.000,src=n4,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n4,grp=def] nodes_count: 31
+[t=0.000,src=n4,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n4,grp=def] Turned off
+[t=0.000,src=n4,grp=def] Sleeping from 0.0 to 1083.488
+[t=0.000,src=n5,grp=def] Parameters:
+[t=0.000,src=n5,grp=def] idle_conso: 1.339
+[t=0.000,src=n5,grp=def] stress_conso: 2.697
+[t=0.000,src=n5,grp=def] comms_conso: 0.16
+[t=0.000,src=n5,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n5,grp=def] tasks_list: [[['t_dr_5', 3.8, None]]]
+[t=0.000,src=n5,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n5,grp=def] nodes_count: 31
+[t=0.000,src=n5,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n5,grp=def] Turned off
+[t=0.000,src=n5,grp=def] Sleeping from 0.0 to 1595.77
+[t=0.000,src=n6,grp=def] Parameters:
+[t=0.000,src=n6,grp=def] idle_conso: 1.339
+[t=0.000,src=n6,grp=def] stress_conso: 2.697
+[t=0.000,src=n6,grp=def] comms_conso: 0.16
+[t=0.000,src=n6,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n6,grp=def] tasks_list: [[['t_dr_6', 2.8, None]]]
+[t=0.000,src=n6,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n6,grp=def] nodes_count: 31
+[t=0.000,src=n6,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n6,grp=def] Turned off
+[t=0.000,src=n6,grp=def] Sleeping from 0.0 to 706.148
+[t=0.000,src=n7,grp=def] Parameters:
+[t=0.000,src=n7,grp=def] idle_conso: 1.339
+[t=0.000,src=n7,grp=def] stress_conso: 2.697
+[t=0.000,src=n7,grp=def] comms_conso: 0.16
+[t=0.000,src=n7,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n7,grp=def] tasks_list: [[['t_dr_7', 9.21, None]]]
+[t=0.000,src=n7,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n7,grp=def] nodes_count: 31
+[t=0.000,src=n7,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n7,grp=def] Turned off
+[t=0.000,src=n7,grp=def] Sleeping from 0.0 to 1382.952
+[t=0.000,src=n8,grp=def] Parameters:
+[t=0.000,src=n8,grp=def] idle_conso: 1.339
+[t=0.000,src=n8,grp=def] stress_conso: 2.697
+[t=0.000,src=n8,grp=def] comms_conso: 0.16
+[t=0.000,src=n8,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n8,grp=def] tasks_list: [[['t_dr_8', 1.46, None]]]
+[t=0.000,src=n8,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n8,grp=def] nodes_count: 31
+[t=0.000,src=n8,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n8,grp=def] Turned off
+[t=0.000,src=n8,grp=def] Sleeping from 0.0 to 176.358
+[t=0.000,src=n9,grp=def] Parameters:
+[t=0.000,src=n9,grp=def] idle_conso: 1.339
+[t=0.000,src=n9,grp=def] stress_conso: 2.697
+[t=0.000,src=n9,grp=def] comms_conso: 0.16
+[t=0.000,src=n9,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n9,grp=def] tasks_list: [[['t_dr_9', 12.82, None]]]
+[t=0.000,src=n9,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n9,grp=def] nodes_count: 31
+[t=0.000,src=n9,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n9,grp=def] Turned off
+[t=0.000,src=n9,grp=def] Sleeping from 0.0 to 2073.62
+[t=0.000,src=n10,grp=def] Parameters:
+[t=0.000,src=n10,grp=def] idle_conso: 1.339
+[t=0.000,src=n10,grp=def] stress_conso: 2.697
+[t=0.000,src=n10,grp=def] comms_conso: 0.16
+[t=0.000,src=n10,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n10,grp=def] tasks_list: [[['t_dr_10', 1.81, None]]]
+[t=0.000,src=n10,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n10,grp=def] nodes_count: 31
+[t=0.000,src=n10,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n10,grp=def] Turned off
+[t=0.000,src=n10,grp=def] Sleeping from 0.0 to 2809.805
+[t=0.000,src=n11,grp=def] Parameters:
+[t=0.000,src=n11,grp=def] idle_conso: 1.339
+[t=0.000,src=n11,grp=def] stress_conso: 2.697
+[t=0.000,src=n11,grp=def] comms_conso: 0.16
+[t=0.000,src=n11,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n11,grp=def] tasks_list: [[['t_dr_11', 2.62, None]]]
+[t=0.000,src=n11,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n11,grp=def] nodes_count: 31
+[t=0.000,src=n11,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n11,grp=def] Turned off
+[t=0.000,src=n11,grp=def] Sleeping from 0.0 to 2843.586
+[t=0.000,src=n12,grp=def] Parameters:
+[t=0.000,src=n12,grp=def] idle_conso: 1.339
+[t=0.000,src=n12,grp=def] stress_conso: 2.697
+[t=0.000,src=n12,grp=def] comms_conso: 0.16
+[t=0.000,src=n12,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n12,grp=def] tasks_list: [[['t_dr_12', 3.88, None]]]
+[t=0.000,src=n12,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n12,grp=def] nodes_count: 31
+[t=0.000,src=n12,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n12,grp=def] Turned off
+[t=0.000,src=n12,grp=def] Sleeping from 0.0 to 3306.285
+[t=0.000,src=n13,grp=def] Parameters:
+[t=0.000,src=n13,grp=def] idle_conso: 1.339
+[t=0.000,src=n13,grp=def] stress_conso: 2.697
+[t=0.000,src=n13,grp=def] comms_conso: 0.16
+[t=0.000,src=n13,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n13,grp=def] tasks_list: [[['t_dr_13', 22.04, None]]]
+[t=0.000,src=n13,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n13,grp=def] nodes_count: 31
+[t=0.000,src=n13,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n13,grp=def] Turned off
+[t=0.000,src=n13,grp=def] Sleeping from 0.0 to 3064.324
+[t=0.000,src=n14,grp=def] Parameters:
+[t=0.000,src=n14,grp=def] idle_conso: 1.339
+[t=0.000,src=n14,grp=def] stress_conso: 2.697
+[t=0.000,src=n14,grp=def] comms_conso: 0.16
+[t=0.000,src=n14,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n14,grp=def] tasks_list: [[['t_dr_14', 7.29, None]]]
+[t=0.000,src=n14,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n14,grp=def] nodes_count: 31
+[t=0.000,src=n14,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n14,grp=def] Turned off
+[t=0.000,src=n14,grp=def] Sleeping from 0.0 to 3287.282
+[t=0.000,src=n15,grp=def] Parameters:
+[t=0.000,src=n15,grp=def] idle_conso: 1.339
+[t=0.000,src=n15,grp=def] stress_conso: 2.697
+[t=0.000,src=n15,grp=def] comms_conso: 0.16
+[t=0.000,src=n15,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n15,grp=def] tasks_list: [[['t_sc_0', 6.35, 't_di_0'], ['t_sc_1', 2.56, 't_di_1'], ['t_sc_2', 5.94, 't_di_2'], ['t_sc_3', 6.33, 't_di_3'], ['t_sc_4', 7.2, 't_di_4'], ['t_sc_5', 5.35, 't_di_5'], ['t_sc_6', 4.86, 't_di_6'], ['t_sc_7', 1.06, 't_di_7'], ['t_sc_8', 3.46, 't_di_8'], ['t_sc_9', 1.8, 't_di_9'], ['t_sc_10', 1.82, 't_di_10'], ['t_sc_11', 1.8, 't_di_11'], ['t_sc_12', 3.63, 't_di_12'], ['t_sc_13', 1.32, 't_di_13'], ['t_sc_14', 1.14, 't_di_14'], ['t_sc_15', 1.46, 't_di_15'], ['t_sc_16', 1.84, 't_di_16'], ['t_sc_17', 2.2, 't_di_17'], ['t_sc_18', 1.62, 't_di_18'], ['t_sc_19', 12.99, 't_di_19'], ['t_sc_20', 1.52, 't_di_20'], ['t_sc_21', 1.16, 't_di_21'], ['t_sc_22', 1.25, 't_di_22'], ['t_sc_23', 5.19, 't_di_23'], ['t_sc_24', 4.01, 't_di_24'], ['t_sc_25', 6.36, 't_di_25'], ['t_sc_26', 6.47, 't_di_26'], ['t_sc_27', 5.75, 't_di_27'], ['t_sc_28', 19.39, 't_di_28'], ['t_sc_29', 3.12, 't_di_29']], [['t_sr_0', 0, 't_dr_0'], ['t_sr_1', 0, 't_dr_1'], ['t_sr_2', 0, 't_dr_2'], ['t_sr_3', 0, 't_dr_3'], ['t_sr_4', 0, 't_dr_4'], ['t_sr_5', 0, 't_dr_5'], ['t_sr_6', 0, 't_dr_6'], ['t_sr_7', 0, 't_dr_7'], ['t_sr_8', 0, 't_dr_8'], ['t_sr_9', 0, 't_dr_9'], ['t_sr_10', 0, 't_dr_10'], ['t_sr_11', 0, 't_dr_11'], ['t_sr_12', 0, 't_dr_12'], ['t_sr_13', 0, 't_dr_13'], ['t_sr_14', 0, 't_dr_14'], ['t_sr_15', 0, 't_dr_15'], ['t_sr_16', 0, 't_dr_16'], ['t_sr_17', 0, 't_dr_17'], ['t_sr_18', 0, 't_dr_18'], ['t_sr_19', 0, 't_dr_19'], ['t_sr_20', 0, 't_dr_20'], ['t_sr_21', 0, 't_dr_21'], ['t_sr_22', 0, 't_dr_22'], ['t_sr_23', 0, 't_dr_23'], ['t_sr_24', 0, 't_dr_24'], ['t_sr_25', 0, 't_dr_25'], ['t_sr_26', 0, 't_dr_26'], ['t_sr_27', 0, 't_dr_27'], ['t_sr_28', 0, 't_dr_28'], ['t_sr_29', 0, 't_dr_29']], [['t_sr', 10.51, None]]]
+[t=0.000,src=n15,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n15,grp=def] nodes_count: 31
+[t=0.000,src=n15,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n15,grp=def] Turned off
+[t=0.000,src=n15,grp=def] Sleeping from 0.0 to 2168.039
+[t=0.000,src=n16,grp=def] Parameters:
+[t=0.000,src=n16,grp=def] idle_conso: 1.339
+[t=0.000,src=n16,grp=def] stress_conso: 2.697
+[t=0.000,src=n16,grp=def] comms_conso: 0.16
+[t=0.000,src=n16,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n16,grp=def] tasks_list: [[['t_dr_15', 1.09, None]]]
+[t=0.000,src=n16,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n16,grp=def] nodes_count: 31
+[t=0.000,src=n16,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n16,grp=def] Turned off
+[t=0.000,src=n16,grp=def] Sleeping from 0.0 to 2733.303
+[t=0.000,src=n17,grp=def] Parameters:
+[t=0.000,src=n17,grp=def] idle_conso: 1.339
+[t=0.000,src=n17,grp=def] stress_conso: 2.697
+[t=0.000,src=n17,grp=def] comms_conso: 0.16
+[t=0.000,src=n17,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n17,grp=def] tasks_list: [[['t_dr_16', 3.01, None]]]
+[t=0.000,src=n17,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n17,grp=def] nodes_count: 31
+[t=0.000,src=n17,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n17,grp=def] Turned off
+[t=0.000,src=n17,grp=def] Sleeping from 0.0 to 2321.57
+[t=0.000,src=n18,grp=def] Parameters:
+[t=0.000,src=n18,grp=def] idle_conso: 1.339
+[t=0.000,src=n18,grp=def] stress_conso: 2.697
+[t=0.000,src=n18,grp=def] comms_conso: 0.16
+[t=0.000,src=n18,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n18,grp=def] tasks_list: [[['t_dr_17', 8.07, None]]]
+[t=0.000,src=n18,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n18,grp=def] nodes_count: 31
+[t=0.000,src=n18,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n18,grp=def] Turned off
+[t=0.000,src=n18,grp=def] Sleeping from 0.0 to 488.218
+[t=0.000,src=n19,grp=def] Parameters:
+[t=0.000,src=n19,grp=def] idle_conso: 1.339
+[t=0.000,src=n19,grp=def] stress_conso: 2.697
+[t=0.000,src=n19,grp=def] comms_conso: 0.16
+[t=0.000,src=n19,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n19,grp=def] tasks_list: [[['t_dr_18', 2.97, None]]]
+[t=0.000,src=n19,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n19,grp=def] nodes_count: 31
+[t=0.000,src=n19,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n19,grp=def] Turned off
+[t=0.000,src=n19,grp=def] Sleeping from 0.0 to 1934.013
+[t=0.000,src=n20,grp=def] Parameters:
+[t=0.000,src=n20,grp=def] idle_conso: 1.339
+[t=0.000,src=n20,grp=def] stress_conso: 2.697
+[t=0.000,src=n20,grp=def] comms_conso: 0.16
+[t=0.000,src=n20,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n20,grp=def] tasks_list: [[['t_dr_19', 1.99, None]]]
+[t=0.000,src=n20,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n20,grp=def] nodes_count: 31
+[t=0.000,src=n20,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n20,grp=def] Turned off
+[t=0.000,src=n20,grp=def] Sleeping from 0.0 to 3594.031
+[t=0.000,src=n21,grp=def] Parameters:
+[t=0.000,src=n21,grp=def] idle_conso: 1.339
+[t=0.000,src=n21,grp=def] stress_conso: 2.697
+[t=0.000,src=n21,grp=def] comms_conso: 0.16
+[t=0.000,src=n21,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n21,grp=def] tasks_list: [[['t_dr_20', 4.37, None]]]
+[t=0.000,src=n21,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n21,grp=def] nodes_count: 31
+[t=0.000,src=n21,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n21,grp=def] Turned off
+[t=0.000,src=n21,grp=def] Sleeping from 0.0 to 2310.108
+[t=0.000,src=n22,grp=def] Parameters:
+[t=0.000,src=n22,grp=def] idle_conso: 1.339
+[t=0.000,src=n22,grp=def] stress_conso: 2.697
+[t=0.000,src=n22,grp=def] comms_conso: 0.16
+[t=0.000,src=n22,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n22,grp=def] tasks_list: [[['t_dr_21', 2.1, None]]]
+[t=0.000,src=n22,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n22,grp=def] nodes_count: 31
+[t=0.000,src=n22,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n22,grp=def] Turned off
+[t=0.000,src=n22,grp=def] Sleeping from 0.0 to 2152.088
+[t=0.000,src=n23,grp=def] Parameters:
+[t=0.000,src=n23,grp=def] idle_conso: 1.339
+[t=0.000,src=n23,grp=def] stress_conso: 2.697
+[t=0.000,src=n23,grp=def] comms_conso: 0.16
+[t=0.000,src=n23,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n23,grp=def] tasks_list: [[['t_dr_22', 3.86, None]]]
+[t=0.000,src=n23,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n23,grp=def] nodes_count: 31
+[t=0.000,src=n23,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n23,grp=def] Turned off
+[t=0.000,src=n23,grp=def] Sleeping from 0.0 to 559.248
+[t=0.000,src=n24,grp=def] Parameters:
+[t=0.000,src=n24,grp=def] idle_conso: 1.339
+[t=0.000,src=n24,grp=def] stress_conso: 2.697
+[t=0.000,src=n24,grp=def] comms_conso: 0.16
+[t=0.000,src=n24,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n24,grp=def] tasks_list: [[['t_dr_23', 5.8, None]]]
+[t=0.000,src=n24,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n24,grp=def] nodes_count: 31
+[t=0.000,src=n24,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n24,grp=def] Turned off
+[t=0.000,src=n24,grp=def] Sleeping from 0.0 to 1127.768
+[t=0.000,src=n25,grp=def] Parameters:
+[t=0.000,src=n25,grp=def] idle_conso: 1.339
+[t=0.000,src=n25,grp=def] stress_conso: 2.697
+[t=0.000,src=n25,grp=def] comms_conso: 0.16
+[t=0.000,src=n25,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n25,grp=def] tasks_list: [[['t_dr_24', 4.46, None]]]
+[t=0.000,src=n25,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n25,grp=def] nodes_count: 31
+[t=0.000,src=n25,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n25,grp=def] Turned off
+[t=0.000,src=n25,grp=def] Sleeping from 0.0 to 2188.615
+[t=0.000,src=n26,grp=def] Parameters:
+[t=0.000,src=n26,grp=def] idle_conso: 1.339
+[t=0.000,src=n26,grp=def] stress_conso: 2.697
+[t=0.000,src=n26,grp=def] comms_conso: 0.16
+[t=0.000,src=n26,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/3-60.json
+[t=0.000,src=n26,grp=def] tasks_list: [[['t_dr_25', 3.93, None]]]
+[t=0.000,src=n26,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-chain-fav-large-60/3
+[t=0.000,src=n26,grp=def] nodes_count: 31
+[t=0.000,src=n26,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n26,grp=def] Turned off

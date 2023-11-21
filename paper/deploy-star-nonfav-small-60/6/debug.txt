@@ -1,0 +1,108 @@
+[t=0.000,src=n0,grp=def] Parameters: {'stress_conso': 2.697, 'idle_conso': 1.339, 'comms_conso': 0.16, 'bandwidth': 50000, 'results_dir': '/home/aomond/results-reconfiguration-esds/topologies/paper/deploy-star-nonfav-small-60/6', 'nodes_count': 6, 'uptimes_schedule_name': '/home/aomond/journal-pdc-experiments/uptimes_schedules/6-60.json', 'tasks_list': [[[['t_di_0', 4.99, None]], [['t_dr_0', 16.69, None]]], [[['t_di_1', 1.25, None]], [['t_dr_1', 1.52, None]]], [[['t_sa', 1.03, None]], [['t_sc_0', 6.35, 't_di_0'], ['t_sc_1', 2.56, 't_di_1'], ['t_sc_2', 5.94, 't_di_2'], ['t_sc_3', 6.33, 't_di_3'], ['t_sc_4', 7.2, 't_di_4']], [['t_sr_0', 0, 't_dr_0'], ['t_sr_1', 0, 't_dr_1'], ['t_sr_2', 0, 't_dr_2'], ['t_sr_3', 0, 't_dr_3'], ['t_sr_4', 0, 't_dr_4']], [['t_sr', 10.51, None]]], [[['t_di_2', 5.26, None]], [['t_dr_2', 2.29, None]]], [[['t_di_3', 9.82, None]], [['t_dr_3', 2.41, None]]], [[['t_di_4', 5.68, None]], [['t_dr_4', 1.4, None]]]], 'topology': array([[50000, 50000, 50000, 50000, 50000, 50000],
+       [50000, 50000,     0,     0,     0,     0],
+       [50000,     0, 50000,     0,     0,     0],
+       [50000,     0,     0, 50000,     0,     0],
+       [50000,     0,     0,     0, 50000,     0],
+       [50000,     0,     0,     0,     0, 50000]]), 's': SharedMemory('shm_cps_6-60-1700559649890', size=6)}
+[t=0.000,src=n0,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n0,grp=def] Turned off
+[t=0.000,src=n0,grp=def] Sleeping from 0.0 to 2058.71
+[t=0.000,src=n1,grp=def] Parameters: {'stress_conso': 2.697, 'idle_conso': 1.339, 'comms_conso': 0.16, 'bandwidth': 50000, 'results_dir': '/home/aomond/results-reconfiguration-esds/topologies/paper/deploy-star-nonfav-small-60/6', 'nodes_count': 6, 'uptimes_schedule_name': '/home/aomond/journal-pdc-experiments/uptimes_schedules/6-60.json', 'tasks_list': [[[['t_di_0', 4.99, None]], [['t_dr_0', 16.69, None]]], [[['t_di_1', 1.25, None]], [['t_dr_1', 1.52, None]]], [[['t_sa', 1.03, None]], [['t_sc_0', 6.35, 't_di_0'], ['t_sc_1', 2.56, 't_di_1'], ['t_sc_2', 5.94, 't_di_2'], ['t_sc_3', 6.33, 't_di_3'], ['t_sc_4', 7.2, 't_di_4']], [['t_sr_0', 0, 't_dr_0'], ['t_sr_1', 0, 't_dr_1'], ['t_sr_2', 0, 't_dr_2'], ['t_sr_3', 0, 't_dr_3'], ['t_sr_4', 0, 't_dr_4']], [['t_sr', 10.51, None]]], [[['t_di_2', 5.26, None]], [['t_dr_2', 2.29, None]]], [[['t_di_3', 9.82, None]], [['t_dr_3', 2.41, None]]], [[['t_di_4', 5.68, None]], [['t_dr_4', 1.4, None]]]], 'topology': array([[50000, 50000, 50000, 50000, 50000, 50000],
+       [50000, 50000,     0,     0,     0,     0],
+       [50000,     0, 50000,     0,     0,     0],
+       [50000,     0,     0, 50000,     0,     0],
+       [50000,     0,     0,     0, 50000,     0],
+       [50000,     0,     0,     0,     0, 50000]]), 's': SharedMemory('shm_cps_6-60-1700559649890', size=6)}
+[t=0.000,src=n1,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n1,grp=def] Turned off
+[t=0.000,src=n1,grp=def] Sleeping from 0.0 to 1976.219
+[t=0.000,src=n2,grp=def] Parameters: {'stress_conso': 2.697, 'idle_conso': 1.339, 'comms_conso': 0.16, 'bandwidth': 50000, 'results_dir': '/home/aomond/results-reconfiguration-esds/topologies/paper/deploy-star-nonfav-small-60/6', 'nodes_count': 6, 'uptimes_schedule_name': '/home/aomond/journal-pdc-experiments/uptimes_schedules/6-60.json', 'tasks_list': [[[['t_di_0', 4.99, None]], [['t_dr_0', 16.69, None]]], [[['t_di_1', 1.25, None]], [['t_dr_1', 1.52, None]]], [[['t_sa', 1.03, None]], [['t_sc_0', 6.35, 't_di_0'], ['t_sc_1', 2.56, 't_di_1'], ['t_sc_2', 5.94, 't_di_2'], ['t_sc_3', 6.33, 't_di_3'], ['t_sc_4', 7.2, 't_di_4']], [['t_sr_0', 0, 't_dr_0'], ['t_sr_1', 0, 't_dr_1'], ['t_sr_2', 0, 't_dr_2'], ['t_sr_3', 0, 't_dr_3'], ['t_sr_4', 0, 't_dr_4']], [['t_sr', 10.51, None]]], [[['t_di_2', 5.26, None]], [['t_dr_2', 2.29, None]]], [[['t_di_3', 9.82, None]], [['t_dr_3', 2.41, None]]], [[['t_di_4', 5.68, None]], [['t_dr_4', 1.4, None]]]], 'topology': array([[50000, 50000, 50000, 50000, 50000, 50000],
+       [50000, 50000,     0,     0,     0,     0],
+       [50000,     0, 50000,     0,     0,     0],
+       [50000,     0,     0, 50000,     0,     0],
+       [50000,     0,     0,     0, 50000,     0],
+       [50000,     0,     0,     0,     0, 50000]]), 's': SharedMemory('shm_cps_6-60-1700559649890', size=6)}
+[t=0.000,src=n2,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n2,grp=def] Turned off
+[t=0.000,src=n2,grp=def] Sleeping from 0.0 to 1140.12
+[t=0.000,src=n3,grp=def] Parameters: {'stress_conso': 2.697, 'idle_conso': 1.339, 'comms_conso': 0.16, 'bandwidth': 50000, 'results_dir': '/home/aomond/results-reconfiguration-esds/topologies/paper/deploy-star-nonfav-small-60/6', 'nodes_count': 6, 'uptimes_schedule_name': '/home/aomond/journal-pdc-experiments/uptimes_schedules/6-60.json', 'tasks_list': [[[['t_di_0', 4.99, None]], [['t_dr_0', 16.69, None]]], [[['t_di_1', 1.25, None]], [['t_dr_1', 1.52, None]]], [[['t_sa', 1.03, None]], [['t_sc_0', 6.35, 't_di_0'], ['t_sc_1', 2.56, 't_di_1'], ['t_sc_2', 5.94, 't_di_2'], ['t_sc_3', 6.33, 't_di_3'], ['t_sc_4', 7.2, 't_di_4']], [['t_sr_0', 0, 't_dr_0'], ['t_sr_1', 0, 't_dr_1'], ['t_sr_2', 0, 't_dr_2'], ['t_sr_3', 0, 't_dr_3'], ['t_sr_4', 0, 't_dr_4']], [['t_sr', 10.51, None]]], [[['t_di_2', 5.26, None]], [['t_dr_2', 2.29, None]]], [[['t_di_3', 9.82, None]], [['t_dr_3', 2.41, None]]], [[['t_di_4', 5.68, None]], [['t_dr_4', 1.4, None]]]], 'topology': array([[50000, 50000, 50000, 50000, 50000, 50000],
+       [50000, 50000,     0,     0,     0,     0],
+       [50000,     0, 50000,     0,     0,     0],
+       [50000,     0,     0, 50000,     0,     0],
+       [50000,     0,     0,     0, 50000,     0],
+       [50000,     0,     0,     0,     0, 50000]]), 's': SharedMemory('shm_cps_6-60-1700559649890', size=6)}
+[t=0.000,src=n3,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n3,grp=def] Turned off
+[t=0.000,src=n3,grp=def] Sleeping from 0.0 to 3552.416
+[t=0.000,src=n4,grp=def] Parameters: {'stress_conso': 2.697, 'idle_conso': 1.339, 'comms_conso': 0.16, 'bandwidth': 50000, 'results_dir': '/home/aomond/results-reconfiguration-esds/topologies/paper/deploy-star-nonfav-small-60/6', 'nodes_count': 6, 'uptimes_schedule_name': '/home/aomond/journal-pdc-experiments/uptimes_schedules/6-60.json', 'tasks_list': [[[['t_di_0', 4.99, None]], [['t_dr_0', 16.69, None]]], [[['t_di_1', 1.25, None]], [['t_dr_1', 1.52, None]]], [[['t_sa', 1.03, None]], [['t_sc_0', 6.35, 't_di_0'], ['t_sc_1', 2.56, 't_di_1'], ['t_sc_2', 5.94, 't_di_2'], ['t_sc_3', 6.33, 't_di_3'], ['t_sc_4', 7.2, 't_di_4']], [['t_sr_0', 0, 't_dr_0'], ['t_sr_1', 0, 't_dr_1'], ['t_sr_2', 0, 't_dr_2'], ['t_sr_3', 0, 't_dr_3'], ['t_sr_4', 0, 't_dr_4']], [['t_sr', 10.51, None]]], [[['t_di_2', 5.26, None]], [['t_dr_2', 2.29, None]]], [[['t_di_3', 9.82, None]], [['t_dr_3', 2.41, None]]], [[['t_di_4', 5.68, None]], [['t_dr_4', 1.4, None]]]], 'topology': array([[50000, 50000, 50000, 50000, 50000, 50000],
+       [50000, 50000,     0,     0,     0,     0],
+       [50000,     0, 50000,     0,     0,     0],
+       [50000,     0,     0, 50000,     0,     0],
+       [50000,     0,     0,     0, 50000,     0],
+       [50000,     0,     0,     0,     0, 50000]]), 's': SharedMemory('shm_cps_6-60-1700559649890', size=6)}
+[t=0.000,src=n4,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n4,grp=def] Turned off
+[t=0.000,src=n4,grp=def] Sleeping from 0.0 to 5.271
+[t=0.000,src=n5,grp=def] Parameters: {'stress_conso': 2.697, 'idle_conso': 1.339, 'comms_conso': 0.16, 'bandwidth': 50000, 'results_dir': '/home/aomond/results-reconfiguration-esds/topologies/paper/deploy-star-nonfav-small-60/6', 'nodes_count': 6, 'uptimes_schedule_name': '/home/aomond/journal-pdc-experiments/uptimes_schedules/6-60.json', 'tasks_list': [[[['t_di_0', 4.99, None]], [['t_dr_0', 16.69, None]]], [[['t_di_1', 1.25, None]], [['t_dr_1', 1.52, None]]], [[['t_sa', 1.03, None]], [['t_sc_0', 6.35, 't_di_0'], ['t_sc_1', 2.56, 't_di_1'], ['t_sc_2', 5.94, 't_di_2'], ['t_sc_3', 6.33, 't_di_3'], ['t_sc_4', 7.2, 't_di_4']], [['t_sr_0', 0, 't_dr_0'], ['t_sr_1', 0, 't_dr_1'], ['t_sr_2', 0, 't_dr_2'], ['t_sr_3', 0, 't_dr_3'], ['t_sr_4', 0, 't_dr_4']], [['t_sr', 10.51, None]]], [[['t_di_2', 5.26, None]], [['t_dr_2', 2.29, None]]], [[['t_di_3', 9.82, None]], [['t_dr_3', 2.41, None]]], [[['t_di_4', 5.68, None]], [['t_dr_4', 1.4, None]]]], 'topology': array([[50000, 50000, 50000, 50000, 50000, 50000],
+       [50000, 50000,     0,     0,     0,     0],
+       [50000,     0, 50000,     0,     0,     0],
+       [50000,     0,     0, 50000,     0,     0],
+       [50000,     0,     0,     0, 50000,     0],
+       [50000,     0,     0,     0,     0, 50000]]), 's': SharedMemory('shm_cps_6-60-1700559649890', size=6)}
+[t=0.000,src=n5,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n5,grp=def] Turned off
+[t=0.000,src=n5,grp=def] Sleeping from 0.0 to 2522.805
+[t=5.271,src=n4,grp=def] Turned on
+[t=5.271,src=n4,grp=def] Executing concurrent tasks [['t_di_3', 9.82, None]]
+[t=15.091,src=n4,grp=def] Next concurrent tasks: [['t_dr_3', 2.41, None]]
+[t=15.091,src=n4,grp=def] deps_to_retrieve: {None}
+[t=65.271,src=n4,grp=def] Isolated uptime, simulating 47.73955399954334 sends
+[t=65.271,src=n4,grp=def] Turned off
+[t=65.271,src=n4,grp=def] Sleeping from 65.271 to 4620.403
+[t=1140.120,src=n2,grp=def] Turned on
+[t=1140.120,src=n2,grp=def] Executing concurrent tasks [['t_sa', 1.03, None]]
+[t=1141.150,src=n2,grp=def] Next concurrent tasks: [['t_sc_0', 6.35, 't_di_0'], ['t_sc_1', 2.56, 't_di_1'], ['t_sc_2', 5.94, 't_di_2'], ['t_sc_3', 6.33, 't_di_3'], ['t_sc_4', 7.2, 't_di_4']]
+[t=1141.150,src=n2,grp=def] deps_to_retrieve: {'t_di_3', 't_di_0', 't_di_1', 't_di_4', 't_di_2', None}
+[t=1200.120,src=n2,grp=def] Isolated uptime, simulating 56.10206256183882 sends
+[t=1200.120,src=n2,grp=def] Turned off
+[t=1200.120,src=n2,grp=def] Sleeping from 1200.12 to 5133.352
+[t=1976.219,src=n1,grp=def] Turned on
+[t=1976.219,src=n1,grp=def] Executing concurrent tasks [['t_di_1', 1.25, None]]
+[t=1977.469,src=n1,grp=def] Next concurrent tasks: [['t_dr_1', 1.52, None]]
+[t=1977.469,src=n1,grp=def] deps_to_retrieve: {None}
+[t=2036.219,src=n1,grp=def] Isolated uptime, simulating 55.89276200624096 sends
+[t=2036.219,src=n1,grp=def] Turned off
+[t=2036.219,src=n1,grp=def] Sleeping from 2036.219 to 4419.815
+[t=2058.710,src=n0,grp=def] Turned on
+[t=2058.710,src=n0,grp=def] Executing concurrent tasks [['t_di_0', 4.99, None]]
+[t=2063.700,src=n0,grp=def] Next concurrent tasks: [['t_dr_0', 16.69, None]]
+[t=2063.700,src=n0,grp=def] deps_to_retrieve: {None}
+[t=2118.710,src=n0,grp=def] Isolated uptime, simulating 52.33465256107791 sends
+[t=2118.710,src=n0,grp=def] Turned off
+[t=2118.710,src=n0,grp=def] Sleeping from 2118.71 to 5774.331
+[t=2522.805,src=n5,grp=def] Turned on
+[t=2522.805,src=n5,grp=def] Executing concurrent tasks [['t_di_4', 5.68, None]]
+[t=2528.485,src=n5,grp=def] Next concurrent tasks: [['t_dr_4', 1.4, None]]
+[t=2528.485,src=n5,grp=def] deps_to_retrieve: {None}
+[t=2582.805,src=n5,grp=def] Isolated uptime, simulating 51.678209909430095 sends
+[t=2582.805,src=n5,grp=def] Turned off
+[t=2582.805,src=n5,grp=def] Sleeping from 2582.805 to 4709.283
+[t=3552.416,src=n3,grp=def] Turned on
+[t=3552.416,src=n3,grp=def] Executing concurrent tasks [['t_di_2', 5.26, None]]
+[t=3557.676,src=n3,grp=def] Next concurrent tasks: [['t_dr_2', 2.29, None]]
+[t=3557.676,src=n3,grp=def] deps_to_retrieve: {None}
+[t=3612.416,src=n3,grp=def] Isolated uptime, simulating 52.07778369738924 sends
+[t=3612.416,src=n3,grp=def] Turned off
+[t=3612.416,src=n3,grp=def] Sleeping from 3612.416 to 5821.746
+[t=4419.815,src=n1,grp=def] Turned on
+[t=4419.815,src=n1,grp=def] Executing concurrent tasks [['t_dr_1', 1.52, None]]
+[t=4421.335,src=n1,grp=def] All tasks done
+[t=4479.815,src=n1,grp=def] Isolated uptime, simulating 55.635893142552284 sends
+[t=4479.815,src=n1,grp=def] Turned off
+[t=4479.815,src=n1,grp=def] Sleeping from 4479.815 to 9122.74
+[t=4620.403,src=n4,grp=def] Turned on
+[t=4620.403,src=n4,grp=def] Executing concurrent tasks [['t_dr_3', 2.41, None]]
+[t=4622.813,src=n4,grp=def] All tasks done
+[t=4680.403,src=n4,grp=def] Isolated uptime, simulating 54.789177258543404 sends
+[t=4680.403,src=n4,grp=def] Turned off
+[t=4680.403,src=n4,grp=def] Sleeping from 4680.403 to 10261.449

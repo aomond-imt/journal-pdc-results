@@ -1,0 +1,167 @@
+[t=0.000,src=n0,grp=def] Parameters:
+[t=0.000,src=n0,grp=def] idle_conso: 1.339
+[t=0.000,src=n0,grp=def] stress_conso: 2.697
+[t=0.000,src=n0,grp=def] comms_conso: 0.16
+[t=0.000,src=n0,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/4-60.json
+[t=0.000,src=n0,grp=def] tasks_list: [[['t_sc_0', 6.35, 't_di_0'], ['t_sc_1', 2.56, 't_di_1'], ['t_sc_2', 5.94, 't_di_2'], ['t_sc_3', 6.33, 't_di_3'], ['t_sc_4', 7.2, 't_di_4']], [['t_sr_0', 0, 't_dr_0'], ['t_sr_1', 0, 't_dr_1'], ['t_sr_2', 0, 't_dr_2'], ['t_sr_3', 0, 't_dr_3'], ['t_sr_4', 0, 't_dr_4']], [['t_sr', 10.51, None]]]
+[t=0.000,src=n0,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-ring-fav-small-60/4
+[t=0.000,src=n0,grp=def] nodes_count: 6
+[t=0.000,src=n0,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n0,grp=def] Turned off
+[t=0.000,src=n0,grp=def] Sleeping from 0.0 to 1746.271
+[t=0.000,src=n1,grp=def] Parameters:
+[t=0.000,src=n1,grp=def] idle_conso: 1.339
+[t=0.000,src=n1,grp=def] stress_conso: 2.697
+[t=0.000,src=n1,grp=def] comms_conso: 0.16
+[t=0.000,src=n1,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/4-60.json
+[t=0.000,src=n1,grp=def] tasks_list: [[['t_dr_0', 16.69, None]]]
+[t=0.000,src=n1,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-ring-fav-small-60/4
+[t=0.000,src=n1,grp=def] nodes_count: 6
+[t=0.000,src=n1,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n1,grp=def] Turned off
+[t=0.000,src=n1,grp=def] Sleeping from 0.0 to 2292.975
+[t=0.000,src=n2,grp=def] Parameters:
+[t=0.000,src=n2,grp=def] idle_conso: 1.339
+[t=0.000,src=n2,grp=def] stress_conso: 2.697
+[t=0.000,src=n2,grp=def] comms_conso: 0.16
+[t=0.000,src=n2,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/4-60.json
+[t=0.000,src=n2,grp=def] tasks_list: [[['t_dr_1', 1.52, None]]]
+[t=0.000,src=n2,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-ring-fav-small-60/4
+[t=0.000,src=n2,grp=def] nodes_count: 6
+[t=0.000,src=n2,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n2,grp=def] Turned off
+[t=0.000,src=n2,grp=def] Sleeping from 0.0 to 1789.526
+[t=0.000,src=n3,grp=def] Parameters:
+[t=0.000,src=n3,grp=def] idle_conso: 1.339
+[t=0.000,src=n3,grp=def] stress_conso: 2.697
+[t=0.000,src=n3,grp=def] comms_conso: 0.16
+[t=0.000,src=n3,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/4-60.json
+[t=0.000,src=n3,grp=def] tasks_list: [[['t_dr_2', 2.29, None]]]
+[t=0.000,src=n3,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-ring-fav-small-60/4
+[t=0.000,src=n3,grp=def] nodes_count: 6
+[t=0.000,src=n3,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n3,grp=def] Turned off
+[t=0.000,src=n3,grp=def] Sleeping from 0.0 to 180.646
+[t=0.000,src=n4,grp=def] Parameters:
+[t=0.000,src=n4,grp=def] idle_conso: 1.339
+[t=0.000,src=n4,grp=def] stress_conso: 2.697
+[t=0.000,src=n4,grp=def] comms_conso: 0.16
+[t=0.000,src=n4,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/4-60.json
+[t=0.000,src=n4,grp=def] tasks_list: [[['t_dr_3', 2.41, None]]]
+[t=0.000,src=n4,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-ring-fav-small-60/4
+[t=0.000,src=n4,grp=def] nodes_count: 6
+[t=0.000,src=n4,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n4,grp=def] Turned off
+[t=0.000,src=n4,grp=def] Sleeping from 0.0 to 1715.916
+[t=0.000,src=n5,grp=def] Parameters:
+[t=0.000,src=n5,grp=def] idle_conso: 1.339
+[t=0.000,src=n5,grp=def] stress_conso: 2.697
+[t=0.000,src=n5,grp=def] comms_conso: 0.16
+[t=0.000,src=n5,grp=def] uptimes_schedule_name: /home/aomond/journal-pdc-experiments/uptimes_schedules/4-60.json
+[t=0.000,src=n5,grp=def] tasks_list: [[['t_dr_4', 1.4, None]]]
+[t=0.000,src=n5,grp=def] results_dir: /home/aomond/results-reconfiguration-esds/topologies/paper/deploy-ring-fav-small-60/4
+[t=0.000,src=n5,grp=def] nodes_count: 6
+[t=0.000,src=n5,grp=def] deps_to_retrieve: {None}
+[t=0.000,src=n5,grp=def] Turned off
+[t=0.000,src=n5,grp=def] Sleeping from 0.0 to 1452.987
+[t=180.646,src=n3,grp=def] Turned on
+[t=180.646,src=n3,grp=def] Executing concurrent tasks [['t_di_2', 5.26, None]]
+[t=185.906,src=n3,grp=def] Next concurrent tasks: [['t_dr_2', 2.29, None]]
+[t=185.906,src=n3,grp=def] deps_to_retrieve: {None}
+[t=240.646,src=n3,grp=def] Isolated uptime, simulating 52.07778369738946 sends
+[t=240.646,src=n3,grp=def] Turned off
+[t=240.646,src=n3,grp=def] Sleeping from 240.646 to 5030.616
+[t=1452.987,src=n5,grp=def] Turned on
+[t=1452.987,src=n5,grp=def] Executing concurrent tasks [['t_di_4', 5.68, None]]
+[t=1458.667,src=n5,grp=def] Next concurrent tasks: [['t_dr_4', 1.4, None]]
+[t=1458.667,src=n5,grp=def] deps_to_retrieve: {None}
+[t=1512.987,src=n5,grp=def] Isolated uptime, simulating 51.67820990942988 sends
+[t=1512.987,src=n5,grp=def] Turned off
+[t=1512.987,src=n5,grp=def] Sleeping from 1512.987 to 6698.82
+[t=1715.916,src=n4,grp=def] Turned on
+[t=1715.916,src=n4,grp=def] Executing concurrent tasks [['t_di_3', 9.82, None]]
+[t=1725.736,src=n4,grp=def] Next concurrent tasks: [['t_dr_3', 2.41, None]]
+[t=1725.736,src=n4,grp=def] deps_to_retrieve: {None}
+[t=1746.271,src=n0,grp=def] Turned on
+[t=1746.271,src=n0,grp=def] Executing concurrent tasks [['t_sa', 1.03, None]]
+[t=1747.301,src=n0,grp=def] Next concurrent tasks: [['t_sc_0', 6.35, 't_di_0'], ['t_sc_1', 2.56, 't_di_1'], ['t_sc_2', 5.94, 't_di_2'], ['t_sc_3', 6.33, 't_di_3'], ['t_sc_4', 7.2, 't_di_4']]
+[t=1747.301,src=n0,grp=def] deps_to_retrieve: {'t_di_3', 't_di_1', 't_di_4', 't_di_2', 't_di_0', None}
+[t=1775.916,src=n4,grp=def] Isolated uptime, simulating 47.7395539995434 sends
+[t=1775.916,src=n4,grp=def] Turned off
+[t=1775.916,src=n4,grp=def] Sleeping from 1775.916 to 6988.598
+[t=1789.526,src=n2,grp=def] Turned on
+[t=1789.526,src=n2,grp=def] Executing concurrent tasks [['t_di_1', 1.25, None]]
+[t=1790.776,src=n2,grp=def] Next concurrent tasks: [['t_dr_1', 1.52, None]]
+[t=1790.776,src=n2,grp=def] deps_to_retrieve: {None}
+[t=1806.271,src=n0,grp=def] Isolated uptime, simulating 56.10206256183882 sends
+[t=1806.271,src=n0,grp=def] Turned off
+[t=1806.271,src=n0,grp=def] Sleeping from 1806.271 to 4824.617
+[t=1849.526,src=n2,grp=def] Isolated uptime, simulating 55.89276200624096 sends
+[t=1849.526,src=n2,grp=def] Turned off
+[t=1849.526,src=n2,grp=def] Sleeping from 1849.526 to 7233.823
+[t=2292.975,src=n1,grp=def] Turned on
+[t=2292.975,src=n1,grp=def] Executing concurrent tasks [['t_di_0', 4.99, None]]
+[t=2297.965,src=n1,grp=def] Next concurrent tasks: [['t_dr_0', 16.69, None]]
+[t=2297.965,src=n1,grp=def] deps_to_retrieve: {None}
+[t=2352.975,src=n1,grp=def] Isolated uptime, simulating 52.33465256107791 sends
+[t=2352.975,src=n1,grp=def] Turned off
+[t=2352.975,src=n1,grp=def] Sleeping from 2352.975 to 4299.412
+[t=4299.412,src=n1,grp=def] Turned on
+[t=4299.412,src=n1,grp=def] Executing concurrent tasks [['t_dr_0', 16.69, None]]
+[t=4316.102,src=n1,grp=def] All tasks done
+[t=4359.412,src=n1,grp=def] Isolated uptime, simulating 41.20366846792031 sends
+[t=4359.412,src=n1,grp=def] Turned off
+[t=4359.412,src=n1,grp=def] Sleeping from 4359.412 to 9870.564
+[t=4824.617,src=n0,grp=def] Turned on
+[t=4884.617,src=n0,grp=def] Isolated uptime, simulating 57.081969708501404 sends
+[t=4884.617,src=n0,grp=def] Turned off
+[t=4884.617,src=n0,grp=def] Sleeping from 4884.617 to 11250.225
+[t=5030.616,src=n3,grp=def] Turned on
+[t=5030.616,src=n3,grp=def] Executing concurrent tasks [['t_dr_2', 2.29, None]]
+[t=5032.906,src=n3,grp=def] All tasks done
+[t=5090.616,src=n3,grp=def] Isolated uptime, simulating 54.9033411979603 sends
+[t=5090.616,src=n3,grp=def] Turned off
+[t=5090.616,src=n3,grp=def] Sleeping from 5090.616 to 10982.127
+[t=6698.820,src=n5,grp=def] Turned on
+[t=6698.820,src=n5,grp=def] Executing concurrent tasks [['t_dr_4', 1.4, None]]
+[t=6700.220,src=n5,grp=def] All tasks done
+[t=6758.820,src=n5,grp=def] Isolated uptime, simulating 55.75005708197005 sends
+[t=6758.820,src=n5,grp=def] Turned off
+[t=6758.820,src=n5,grp=def] Sleeping from 6758.82 to 10348.941
+[t=6988.598,src=n4,grp=def] Turned on
+[t=6988.598,src=n4,grp=def] Executing concurrent tasks [['t_dr_3', 2.41, None]]
+[t=6991.008,src=n4,grp=def] All tasks done
+[t=7048.598,src=n4,grp=def] Isolated uptime, simulating 54.789177258543404 sends
+[t=7048.598,src=n4,grp=def] Turned off
+[t=7048.598,src=n4,grp=def] Sleeping from 7048.598 to 11031.943
+[t=7233.823,src=n2,grp=def] Turned on
+[t=7233.823,src=n2,grp=def] Executing concurrent tasks [['t_dr_1', 1.52, None]]
+[t=7235.343,src=n2,grp=def] All tasks done
+[t=7293.823,src=n2,grp=def] Isolated uptime, simulating 55.635893142552284 sends
+[t=7293.823,src=n2,grp=def] Turned off
+[t=7293.823,src=n2,grp=def] Sleeping from 7293.823 to 10195.914
+[t=9870.564,src=n1,grp=def] Turned on
+[t=9930.564,src=n1,grp=def] Isolated uptime, simulating 57.081969708501404 sends
+[t=9930.564,src=n1,grp=def] Turned off
+[t=9930.564,src=n1,grp=def] Sleeping from 9930.564 to 15223.562
+[t=10195.914,src=n2,grp=def] Turned on
+[t=10255.914,src=n2,grp=def] Isolated uptime, simulating 57.081969708501404 sends
+[t=10255.914,src=n2,grp=def] Turned off
+[t=10255.914,src=n2,grp=def] Sleeping from 10255.914 to 15231.858
+[t=10348.941,src=n5,grp=def] Turned on
+[t=10408.941,src=n5,grp=def] Isolated uptime, simulating 57.081969708501404 sends
+[t=10408.941,src=n5,grp=def] Turned off
+[t=10408.941,src=n5,grp=def] Sleeping from 10408.941 to 13717.926
+[t=10982.127,src=n3,grp=def] Turned on
+[t=10982.127,src=n3,grp=def] Send 257 bytes on eth0
+[t=10983.178,src=n3,grp=def] Send 257 bytes on eth0
+[t=10984.229,src=n3,grp=def] Send 257 bytes on eth0
+[t=10985.280,src=n3,grp=def] Send 257 bytes on eth0
+[t=10986.331,src=n3,grp=def] Send 257 bytes on eth0
+[t=10987.383,src=n3,grp=def] Send 257 bytes on eth0
+[t=10988.434,src=n3,grp=def] Send 257 bytes on eth0
+[t=10989.485,src=n3,grp=def] Send 257 bytes on eth0
+[t=10990.536,src=n3,grp=def] Send 257 bytes on eth0
+[t=10991.587,src=n3,grp=def] Send 257 bytes on eth0
+[t=10992.638,src=n3,grp=def] Send 257 bytes on eth0
+[t=10993.689,src=n3,grp=def] Send 257 bytes on eth0

@@ -1,0 +1,45 @@
+[t=0.000,src=n0,grp=def] Turned off
+[t=0.000,src=n1,grp=def] Turned off
+[t=0.000,src=n2,grp=def] Turned off
+[t=0.000,src=n3,grp=def] Turned off
+[t=0.000,src=n4,grp=def] Turned off
+[t=0.000,src=n5,grp=def] Turned off
+[t=1106.826,src=n3,grp=def] Turned on
+[t=1106.826,src=n3,grp=def] Executing concurrent tasks [['t_di_2', 5.26, None]]
+[t=1112.086,src=n3,grp=def] New concurrent tasks: [['t_dr_2', 2.29, None]]
+[t=1112.086,src=n3,grp=def] deps_to_retrieve: {None}
+[t=1112.086,src=n3,grp=def] Send 257 bytes on eth0
+[t=1113.137,src=n3,grp=def] Executing concurrent tasks [['t_dr_2', 2.29, None]]
+[t=1115.427,src=n3,grp=def] All tasks done
+[t=1115.427,src=n3,grp=def] Send 257 bytes on eth0
+[t=1116.478,src=n3,grp=def] Send 257 bytes on eth0
+[t=1117.529,src=n3,grp=def] Send 257 bytes on eth0
+[t=1118.580,src=n3,grp=def] Send 257 bytes on eth0
+[t=1119.632,src=n3,grp=def] Send 257 bytes on eth0
+[t=1120.683,src=n3,grp=def] Send 257 bytes on eth0
+[t=1121.734,src=n3,grp=def] Send 257 bytes on eth0
+[t=1122.785,src=n3,grp=def] Send 257 bytes on eth0
+[t=1123.836,src=n3,grp=def] Send 257 bytes on eth0
+[t=1124.887,src=n3,grp=def] Send 257 bytes on eth0
+[t=1125.938,src=n3,grp=def] Send 257 bytes on eth0
+[t=1126.989,src=n3,grp=def] Send 257 bytes on eth0
+[t=1128.041,src=n3,grp=def] Send 257 bytes on eth0
+[t=1129.092,src=n3,grp=def] Send 257 bytes on eth0
+[t=1130.143,src=n3,grp=def] Send 257 bytes on eth0
+[t=1131.194,src=n3,grp=def] Send 257 bytes on eth0
+[t=1132.245,src=n3,grp=def] Send 257 bytes on eth0
+[t=1133.296,src=n3,grp=def] Send 257 bytes on eth0
+[t=1134.347,src=n3,grp=def] Send 257 bytes on eth0
+[t=1135.398,src=n3,grp=def] Send 257 bytes on eth0
+[t=1136.450,src=n3,grp=def] Send 257 bytes on eth0
+[t=1137.501,src=n3,grp=def] Send 257 bytes on eth0
+[t=1138.552,src=n3,grp=def] Send 257 bytes on eth0
+[t=1139.603,src=n3,grp=def] Send 257 bytes on eth0
+[t=1140.654,src=n3,grp=def] Send 257 bytes on eth0
+[t=1141.705,src=n3,grp=def] Send 257 bytes on eth0
+[t=1142.756,src=n3,grp=def] Send 257 bytes on eth0
+[t=1143.807,src=n3,grp=def] Send 257 bytes on eth0
+[t=1144.858,src=n3,grp=def] Send 257 bytes on eth0
+[t=1145.910,src=n3,grp=def] Send 257 bytes on eth0
+[t=1146.961,src=n3,grp=def] Send 257 bytes on eth0
+[t=1148.012,src=n3,grp=def] Send 257 bytes on eth0

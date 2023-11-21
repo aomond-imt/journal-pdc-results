@@ -1,0 +1,109 @@
+[t=0.000,src=n0,grp=def] Turned off
+[t=0.000,src=n1,grp=def] Turned off
+[t=0.000,src=n2,grp=def] Turned off
+[t=0.000,src=n3,grp=def] Turned off
+[t=0.000,src=n4,grp=def] Turned off
+[t=0.000,src=n5,grp=def] Turned off
+[t=1424.915,src=n4,grp=def] Turned on
+[t=1424.915,src=n4,grp=def] Executing concurrent tasks [['t_di_3', 9.82, None]]
+[t=1434.735,src=n4,grp=def] New concurrent tasks: [['t_dr_3', 2.41, None]]
+[t=1434.735,src=n4,grp=def] deps_to_retrieve: {None}
+[t=1434.735,src=n4,grp=def] Send 257 bytes on eth0
+[t=1435.786,src=n4,grp=def] Executing concurrent tasks [['t_dr_3', 2.41, None]]
+[t=1438.196,src=n4,grp=def] All tasks done
+[t=1438.196,src=n4,grp=def] Send 257 bytes on eth0
+[t=1439.247,src=n4,grp=def] Send 257 bytes on eth0
+[t=1440.298,src=n4,grp=def] Send 257 bytes on eth0
+[t=1441.349,src=n4,grp=def] Send 257 bytes on eth0
+[t=1442.401,src=n4,grp=def] Send 257 bytes on eth0
+[t=1443.452,src=n4,grp=def] Send 257 bytes on eth0
+[t=1444.503,src=n4,grp=def] Send 257 bytes on eth0
+[t=1445.554,src=n4,grp=def] Send 257 bytes on eth0
+[t=1446.605,src=n4,grp=def] Send 257 bytes on eth0
+[t=1447.656,src=n4,grp=def] Send 257 bytes on eth0
+[t=1448.707,src=n4,grp=def] Send 257 bytes on eth0
+[t=1449.758,src=n4,grp=def] Send 257 bytes on eth0
+[t=1450.810,src=n4,grp=def] Send 257 bytes on eth0
+[t=1451.861,src=n4,grp=def] Send 257 bytes on eth0
+[t=1452.912,src=n4,grp=def] Send 257 bytes on eth0
+[t=1453.963,src=n4,grp=def] Send 257 bytes on eth0
+[t=1455.014,src=n4,grp=def] Send 257 bytes on eth0
+[t=1456.065,src=n4,grp=def] Send 257 bytes on eth0
+[t=1457.116,src=n4,grp=def] Send 257 bytes on eth0
+[t=1458.167,src=n4,grp=def] Send 257 bytes on eth0
+[t=1459.219,src=n4,grp=def] Send 257 bytes on eth0
+[t=1460.270,src=n4,grp=def] Send 257 bytes on eth0
+[t=1461.321,src=n4,grp=def] Send 257 bytes on eth0
+[t=1462.372,src=n4,grp=def] Send 257 bytes on eth0
+[t=1463.423,src=n4,grp=def] Send 257 bytes on eth0
+[t=1464.474,src=n4,grp=def] Send 257 bytes on eth0
+[t=1465.525,src=n4,grp=def] Send 257 bytes on eth0
+[t=1466.576,src=n4,grp=def] Send 257 bytes on eth0
+[t=1467.627,src=n4,grp=def] Send 257 bytes on eth0
+[t=1468.679,src=n4,grp=def] Send 257 bytes on eth0
+[t=1469.730,src=n4,grp=def] Send 257 bytes on eth0
+[t=1470.781,src=n4,grp=def] Send 257 bytes on eth0
+[t=1471.832,src=n4,grp=def] Send 257 bytes on eth0
+[t=1472.883,src=n4,grp=def] Send 257 bytes on eth0
+[t=1473.934,src=n4,grp=def] Send 257 bytes on eth0
+[t=1474.985,src=n4,grp=def] Send 257 bytes on eth0
+[t=1476.036,src=n4,grp=def] Send 257 bytes on eth0
+[t=1477.088,src=n4,grp=def] Send 257 bytes on eth0
+[t=1478.139,src=n4,grp=def] Send 257 bytes on eth0
+[t=1479.190,src=n4,grp=def] Send 257 bytes on eth0
+[t=1480.241,src=n4,grp=def] Send 257 bytes on eth0
+[t=1481.292,src=n4,grp=def] Send 257 bytes on eth0
+[t=1482.343,src=n4,grp=def] Send 257 bytes on eth0
+[t=1483.394,src=n4,grp=def] Send 257 bytes on eth0
+[t=1484.445,src=n4,grp=def] Send 257 bytes on eth0
+[t=1484.915,src=n4,grp=def] Turned off
+[t=1587.269,src=n2,grp=def] Turned on
+[t=1587.269,src=n2,grp=def] Executing concurrent tasks [['t_di_1', 1.25, None]]
+[t=1588.519,src=n2,grp=def] New concurrent tasks: [['t_dr_1', 1.52, None]]
+[t=1588.519,src=n2,grp=def] deps_to_retrieve: {None}
+[t=1588.519,src=n2,grp=def] Send 257 bytes on eth0
+[t=1589.570,src=n2,grp=def] Executing concurrent tasks [['t_dr_1', 1.52, None]]
+[t=1591.090,src=n2,grp=def] All tasks done
+[t=1591.090,src=n2,grp=def] Send 257 bytes on eth0
+[t=1592.141,src=n2,grp=def] Send 257 bytes on eth0
+[t=1593.192,src=n2,grp=def] Send 257 bytes on eth0
+[t=1594.243,src=n2,grp=def] Send 257 bytes on eth0
+[t=1595.295,src=n2,grp=def] Send 257 bytes on eth0
+[t=1596.346,src=n2,grp=def] Send 257 bytes on eth0
+[t=1597.397,src=n2,grp=def] Send 257 bytes on eth0
+[t=1598.448,src=n2,grp=def] Send 257 bytes on eth0
+[t=1599.499,src=n2,grp=def] Send 257 bytes on eth0
+[t=1600.550,src=n2,grp=def] Send 257 bytes on eth0
+[t=1601.601,src=n2,grp=def] Send 257 bytes on eth0
+[t=1602.652,src=n2,grp=def] Send 257 bytes on eth0
+[t=1603.704,src=n2,grp=def] Send 257 bytes on eth0
+[t=1604.755,src=n2,grp=def] Send 257 bytes on eth0
+[t=1605.806,src=n2,grp=def] Send 257 bytes on eth0
+[t=1606.857,src=n2,grp=def] Send 257 bytes on eth0
+[t=1607.908,src=n2,grp=def] Send 257 bytes on eth0
+[t=1608.959,src=n2,grp=def] Send 257 bytes on eth0
+[t=1610.010,src=n2,grp=def] Send 257 bytes on eth0
+[t=1611.061,src=n2,grp=def] Send 257 bytes on eth0
+[t=1612.113,src=n2,grp=def] Send 257 bytes on eth0
+[t=1613.164,src=n2,grp=def] Send 257 bytes on eth0
+[t=1614.215,src=n2,grp=def] Send 257 bytes on eth0
+[t=1615.266,src=n2,grp=def] Send 257 bytes on eth0
+[t=1616.317,src=n2,grp=def] Send 257 bytes on eth0
+[t=1617.368,src=n2,grp=def] Send 257 bytes on eth0
+[t=1618.419,src=n2,grp=def] Send 257 bytes on eth0
+[t=1619.470,src=n2,grp=def] Send 257 bytes on eth0
+[t=1620.521,src=n2,grp=def] Send 257 bytes on eth0
+[t=1621.573,src=n2,grp=def] Send 257 bytes on eth0
+[t=1622.624,src=n2,grp=def] Send 257 bytes on eth0
+[t=1623.675,src=n2,grp=def] Send 257 bytes on eth0
+[t=1624.726,src=n2,grp=def] Send 257 bytes on eth0
+[t=1625.777,src=n2,grp=def] Send 257 bytes on eth0
+[t=1626.828,src=n2,grp=def] Send 257 bytes on eth0
+[t=1627.879,src=n2,grp=def] Send 257 bytes on eth0
+[t=1628.930,src=n2,grp=def] Send 257 bytes on eth0
+[t=1629.982,src=n2,grp=def] Send 257 bytes on eth0
+[t=1631.033,src=n2,grp=def] Send 257 bytes on eth0
+[t=1632.084,src=n2,grp=def] Send 257 bytes on eth0
+[t=1633.135,src=n2,grp=def] Send 257 bytes on eth0
+[t=1634.186,src=n2,grp=def] Send 257 bytes on eth0
+[t=1635.237,src=n2,grp=def] Send 257 bytes on eth0
