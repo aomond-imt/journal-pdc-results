@@ -1,5 +1,6 @@
 import copy
 import os
+from os.path import exists
 
 import numpy as np
 import pandas as pd
@@ -22,7 +23,7 @@ for expe_dir in os.listdir(results_dir):
     }
     for run_num in range(30):
         rel_run_num_dir = f"{rel_expe_dir}/{run_num}"
-        if len(os.listdir(rel_run_num_dir)) != int(size):
+        if not exists(rel_run_num_dir) or len(os.listdir(rel_run_num_dir)) != int(size):
             continue
         accumulated_results = {
             "comms": 0,
