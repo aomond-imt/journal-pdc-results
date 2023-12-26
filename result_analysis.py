@@ -26,7 +26,8 @@ def get_df():
             "idle": [],
             "reconf": [],
             "static": [],
-            "dynamic": []
+            "dynamic": [],
+            "total": []
         }
         for run_num in range(30):
             rel_run_num_dir = f"{rel_expe_dir}/{run_num}"
@@ -38,7 +39,8 @@ def get_df():
                 "idle": 0,
                 "reconf": 0,
                 "static": 0,
-                "dynamic": 0
+                "dynamic": 0,
+                "total": 0
             }
             for node_num in range(int(size)):
                 with open(f"{rel_run_num_dir}/{node_num}.yaml") as f:
@@ -50,12 +52,14 @@ def get_df():
                 accumulated_results["reconf"] += reconf
                 accumulated_results["static"] += idle
                 accumulated_results["dynamic"] += reconf + res["comms_cons"]
+                accumulated_results["total"] += idle + reconf + res["comms_cons"]
 
             results_runs["comms"].append(accumulated_results["comms"])
             results_runs["time"].append(accumulated_results["time"])
             results_runs["reconf"].append(accumulated_results["reconf"])
             results_runs["static"].append(accumulated_results["static"])
             results_runs["dynamic"].append(accumulated_results["dynamic"])
+            results_runs["total"].append(accumulated_results["total"])
 
         np_results = {
             "comms": np.array(results_runs['comms']),
@@ -63,6 +67,7 @@ def get_df():
             "time": np.array(results_runs['time']),
             "static": np.array(results_runs['static']),
             "dynamic": np.array(results_runs['dynamic']),
+            "total": np.array(results_runs['total']),
         }
         # formatted_results = {
         #     "comms": f"{round(np_results['comms'].mean(), 2)} J ({round(np_results['comms'].std(), 2)})",
@@ -95,11 +100,19 @@ rn = ["no_rn", "rn_agg", "rn_not_agg"]
 colors = ["blue", "orange"]
 srv = ["fav", "nonfav"]
 
+m = {
+    "fav": "best",
+    "nonfav": "worst",
+    "no_rn": "No RN",
+    "rn_agg": "RN on agg",
+    "rn_not_agg": "RN not on agg"
+}
 
-energy_type = "static"
+indexes = [("fav","no_rn"), ("nonfav","no_rn"), ("fav","rn_agg"), ("nonfav","rn_agg"), ("fav","rn_not_agg"), ("nonfav","rn_not_agg")]
+energy_type = "time"
 csvfile = open(f"e_{energy_type}.csv", "w")
 csvwriter = csv.writer(csvfile, delimiter=",", quotechar="|", quoting=csv.QUOTE_MINIMAL)
-csvwriter.writerow(["net_tplgy", "size", "energy_mean", "energy_std", "srv_tplgy", "rn_type"])
+csvwriter.writerow(["net_tplgy", "size", "energy_mean", "energy_std", "srv_tplgy", "rn_type", "srv_tplgy_index"])
 for rn_type in ["no_rn", "rn_agg", "rn_not_agg"]:
 # rn_type = "rn_not_agg"
     def p(gb):
@@ -117,8 +130,8 @@ for rn_type in ["no_rn", "rn_agg", "rn_not_agg"]:
             results = sorted(vals_to_print, key=lambda el: (net.index(el[0]), srv.index(el[1]), rn.index(el[2])))
             to_print = [key[0]]
             for res_num in range(len(results)):
-                if results[res_num][:-1][0] in ["clique", "ring"] and results[res_num][:-1][1] == "nonfav":
-                    continue
+                # if results[res_num][:-1][0] in ["clique", "ring"] and results[res_num][:-1][1] == "nonfav":
+                #     continue
                 # res_to_compare_num = len(results) - 1
                 res_to_compare_num = res_num-1
                 if res_to_compare_num > 0:
@@ -131,31 +144,34 @@ for rn_type in ["no_rn", "rn_agg", "rn_not_agg"]:
                     delta_time = ""
                 values = results[res_num][-1]
                 formatted_results = {
-                    "dynamic": f"{round(values['dynamic'].mean(), 2)} J ({round(values['dynamic'].std(), 2)}){delta_dynamic}",
-                    "static": f"{round(values['static'].mean()/1000, 2)} kJ ({round(values['static'].std()/1000, 2)}){delta_static}",
-                    "time": f"{round(values['time'].mean() / 3600, 2)} h ({round(values['time'].std() / 3600, 2)}){delta_time}"
+                    "dynamic": f"{round(values['dynamic'].mean(), 2)} J ({round(values['dynamic'].std(), 2)})",
+                    "static": f"{round(values['static'].mean()/1000, 2)} kJ ({round(values['static'].std()/1000, 2)})",
+                    "total": f"{round(values['total'].mean()/1000, 2)} kJ ({round(values['total'].std()/1000, 2)})",
+                    "time": f"{round(values['time'].mean() / 3600, 2)} h ({round(values['time'].std() / 3600, 2)})"
                 }
                 n = len(str(formatted_results['time']))
                 # to_str = f"{formatted_results['dynamic']}{' '*(25-n)}{' '.join(map(str,results[res_num][:-1]))}"
                 to_str = f"\cellcolor{{{colors[srv.index(results[res_num][:-1][1])]}!10}}{formatted_results[energy_type]}"
                 to_print.append(to_str)
                 # to_str = f"{formatted_results[energy_type]}"
-                csvwriter.writerow([results[res_num][0], results[res_num][3], round(values[energy_type].mean(), 2), round(values[energy_type].std(), 2), results[res_num][1], rn_type])
+                index = indexes.index((results[res_num][1], rn_type))
+                print(index)
+                csvwriter.writerow([results[res_num][0], results[res_num][3], f"{values[energy_type].mean()/3600:.2f}", f"{values[energy_type].std()/3600:.2f}", m[results[res_num][1]], m[rn_type], index])
                 # if results[res_num][1] == "nonfav":
                 #     to_str = f"{results[res_num][:-1]}, {formatted_results['dynamic']}"
                 # print(to_str, end=" & ")
             print(*to_print, sep=" & ", end="\\\\\n\\hline\n")
             all_res.append(results)
             # print()
-            if res_cpt > 0:
-                to_print = [""]
-                for prev, curr in zip(all_res[0], all_res[res_cpt]):
-                    if curr[:-1][0] in ["clique", "ring"] and curr[:-1][1] == "nonfav":
-                        continue
-                    delta = f' {-round((prev[-1][energy_type].mean() - curr[-1][energy_type].mean()) * 100 / prev[-1][energy_type].mean(), 2)}\%'
-                    to_print.append(delta)
-                print(*to_print, sep=" & &", end="\\\\\n\\hline\n")
-            res_cpt += 1
+            # if res_cpt > 0:
+            #     to_print = [""]
+            #     for prev, curr in zip(all_res[0], all_res[res_cpt]):
+            #         if curr[:-1][0] in ["clique", "ring"] and curr[:-1][1] == "nonfav":
+            #             continue
+            #         delta = f' {-round((prev[-1][energy_type].mean() - curr[-1][energy_type].mean()) * 100 / prev[-1][energy_type].mean(), 2)}\%'
+            #         to_print.append(delta)
+            #     print(*to_print, sep=" & &", end="\\\\\n\\hline\n")
+            # res_cpt += 1
         print(gb)
         print(columns)
 
