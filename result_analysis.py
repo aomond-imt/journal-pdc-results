@@ -108,7 +108,8 @@ m = {
     "rn_not_agg": "RN not on agg"
 }
 
-indexes = [("fav","no_rn"), ("nonfav","no_rn"), ("fav","rn_agg"), ("nonfav","rn_agg"), ("fav","rn_not_agg"), ("nonfav","rn_not_agg")]
+# indexes = [("fav","no_rn"), ("nonfav","no_rn"), ("fav","rn_agg"), ("nonfav","rn_agg"), ("fav","rn_not_agg"), ("nonfav","rn_not_agg")]
+indexes = [("fav","clique"), ("nonfav","clique"), ("fav","star"), ("nonfav","star"), ("fav","grid"), ("nonfav","grid"), ("fav","ring"), ("nonfav","ring"), ("fav","chain"), ("nonfav","chain")]
 energy_type = "time"
 csvfile = open(f"e_{energy_type}.csv", "w")
 csvwriter = csv.writer(csvfile, delimiter=",", quotechar="|", quoting=csv.QUOTE_MINIMAL)
@@ -154,9 +155,15 @@ for rn_type in ["no_rn", "rn_agg", "rn_not_agg"]:
                 to_str = f"\cellcolor{{{colors[srv.index(results[res_num][:-1][1])]}!10}}{formatted_results[energy_type]}"
                 to_print.append(to_str)
                 # to_str = f"{formatted_results[energy_type]}"
-                index = indexes.index((results[res_num][1], rn_type))
+                index = indexes.index((results[res_num][1], results[res_num][0]))
                 print(index)
-                csvwriter.writerow([results[res_num][0], results[res_num][3], f"{values[energy_type].mean()/3600:.2f}", f"{values[energy_type].std()/3600:.2f}", m[results[res_num][1]], m[rn_type], index])
+                if energy_type == "total":
+                    div = 1000
+                elif energy_type == "time":
+                    div = 3600
+                else:
+                    div = 1
+                csvwriter.writerow([results[res_num][0], results[res_num][3], f"{values[energy_type].mean()/div:.2f}", f"{values[energy_type].std()/div:.2f}", m[results[res_num][1]], m[rn_type], index])
                 # if results[res_num][1] == "nonfav":
                 #     to_str = f"{results[res_num][:-1]}, {formatted_results['dynamic']}"
                 # print(to_str, end=" & ")

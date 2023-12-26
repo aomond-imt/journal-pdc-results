@@ -1,0 +1,91 @@
+net_tplgy,size,energy_mean,energy_std,srv_tplgy,rn_type,srv_tplgy_index
+clique,9,26016.36,6733.21,best,No RN,0
+clique,9,26016.36,6733.21,worst,No RN,1
+star,9,66917.73,29008.97,best,No RN,0
+star,9,127403.89,36011.75,worst,No RN,1
+grid,9,93395.44,30129.96,best,No RN,0
+grid,9,125276.45,26095.39,worst,No RN,1
+ring,9,226263.86,48608.55,best,No RN,0
+ring,9,226263.86,48608.55,worst,No RN,1
+chain,9,270585.25,60185.27,best,No RN,0
+chain,9,477095.71,95129.56,worst,No RN,1
+clique,16,36800.32,6277.97,best,No RN,0
+clique,16,36800.32,6277.97,worst,No RN,1
+star,16,156991.68,55582.24,best,No RN,0
+star,16,293767.58,85130.23,worst,No RN,1
+grid,16,243508.72,48510.72,best,No RN,0
+grid,16,317033.67,50221.97,worst,No RN,1
+ring,16,785724.19,111335.77,best,No RN,0
+ring,16,785724.19,111335.77,worst,No RN,1
+chain,16,904541.63,185740.40,best,No RN,0
+chain,16,1606617.00,200378.28,worst,No RN,1
+clique,25,48589.14,7545.05,best,No RN,0
+clique,25,48589.14,7545.05,worst,No RN,1
+star,25,286314.71,120673.37,best,No RN,0
+star,25,530547.40,156406.72,worst,No RN,1
+grid,25,444447.93,92184.92,best,No RN,0
+grid,25,639096.25,82284.49,worst,No RN,1
+ring,25,1993446.94,260032.84,best,No RN,0
+ring,25,1993446.94,260032.84,worst,No RN,1
+chain,25,2306718.53,291179.28,best,No RN,0
+chain,25,4191480.70,449783.18,worst,No RN,1
+clique,9,1215.77,55.13,best,RN on agg,2
+clique,9,1215.77,55.13,worst,RN on agg,3
+star,9,1215.76,55.14,best,RN on agg,2
+star,9,70098.02,35120.74,worst,RN on agg,3
+grid,9,37916.20,17836.10,best,RN on agg,2
+grid,9,110244.73,33560.56,worst,RN on agg,3
+ring,9,188000.53,58429.51,best,RN on agg,2
+ring,9,188000.53,58429.51,worst,RN on agg,3
+chain,9,231041.88,66559.15,best,RN on agg,2
+chain,9,463041.87,95722.28,worst,RN on agg,3
+clique,16,2240.56,70.67,best,RN on agg,2
+clique,16,2240.56,70.67,worst,RN on agg,3
+star,16,2240.55,70.67,best,RN on agg,2
+star,16,162888.08,59306.16,worst,RN on agg,3
+grid,16,200332.98,53190.20,best,RN on agg,2
+grid,16,283788.36,60886.09,worst,RN on agg,3
+ring,16,771623.06,162127.20,best,RN on agg,2
+ring,16,771623.06,162127.20,worst,RN on agg,3
+chain,16,903047.87,179753.14,best,RN on agg,2
+chain,16,1537290.51,170139.66,worst,RN on agg,3
+clique,25,3518.98,85.90,best,RN on agg,2
+clique,25,3518.98,85.90,worst,RN on agg,3
+star,25,3518.96,85.91,best,RN on agg,2
+star,25,287963.89,128410.31,worst,RN on agg,3
+grid,25,374187.67,65438.95,best,RN on agg,2
+grid,25,575961.95,110727.65,worst,RN on agg,3
+ring,25,1949091.73,260606.58,best,RN on agg,2
+ring,25,1949091.73,260606.58,worst,RN on agg,3
+chain,25,2299669.15,302994.27,best,RN on agg,2
+chain,25,3990149.73,431740.29,worst,RN on agg,3
+clique,9,3898.29,787.68,best,RN not on agg,4
+clique,9,3898.29,787.68,worst,RN not on agg,5
+star,9,68891.22,33094.18,best,RN not on agg,4
+star,9,3732.77,624.59,worst,RN not on agg,5
+grid,9,90869.56,34621.97,best,RN not on agg,4
+grid,9,86698.91,34708.13,worst,RN not on agg,5
+ring,9,197892.51,61160.32,best,RN not on agg,4
+ring,9,197892.51,61160.32,worst,RN not on agg,5
+chain,9,269398.46,65369.80,best,RN not on agg,4
+chain,9,430372.39,90231.08,worst,RN not on agg,5
+clique,16,7344.54,1211.05,best,RN not on agg,4
+clique,16,7344.54,1211.05,worst,RN not on agg,5
+star,16,162583.05,58308.35,best,RN not on agg,4
+star,16,7029.39,1206.13,worst,RN not on agg,5
+grid,16,235838.06,53424.62,best,RN not on agg,4
+grid,16,296876.27,75291.40,worst,RN not on agg,5
+ring,16,778770.24,110017.47,best,RN not on agg,4
+ring,16,778770.24,110017.47,worst,RN not on agg,5
+chain,16,917903.57,202067.60,best,RN not on agg,4
+chain,16,1608409.51,249918.56,worst,RN not on agg,5
+clique,25,11936.33,1698.86,best,RN not on agg,4
+clique,25,11936.33,1698.86,worst,RN not on agg,5
+star,25,282342.75,127114.16,best,RN not on agg,4
+star,25,12230.10,1600.43,worst,RN not on agg,5
+grid,25,443078.71,92866.76,best,RN not on agg,4
+grid,25,552738.72,93114.96,worst,RN not on agg,5
+ring,25,2026110.71,277148.03,best,RN not on agg,4
+ring,25,2026110.71,277148.03,worst,RN not on agg,5
+chain,25,2326642.52,299167.99,best,RN not on agg,4
+chain,25,3290247.32,142011.31,worst,RN not on agg,5
