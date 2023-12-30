@@ -3,6 +3,7 @@ __pycache__/
 venv/
 malformatted_results/
 raw_results_v0/
+raw_results_v1/
 *.tar.xz
 brouillon.py
 plots/

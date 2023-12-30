@@ -110,13 +110,13 @@ m = {
 
 # indexes = [("fav","no_rn"), ("nonfav","no_rn"), ("fav","rn_agg"), ("nonfav","rn_agg"), ("fav","rn_not_agg"), ("nonfav","rn_not_agg")]
 indexes = [("fav","clique"), ("nonfav","clique"), ("fav","star"), ("nonfav","star"), ("fav","grid"), ("nonfav","grid"), ("fav","ring"), ("nonfav","ring"), ("fav","chain"), ("nonfav","chain")]
-energy_type = "time"
+energy_type = "static"
 csvfile = open(f"e_{energy_type}.csv", "w")
 csvwriter = csv.writer(csvfile, delimiter=",", quotechar="|", quoting=csv.QUOTE_MINIMAL)
 csvwriter.writerow(["net_tplgy", "size", "energy_mean", "energy_std", "srv_tplgy", "rn_type", "srv_tplgy_index"])
 for rn_type in ["no_rn", "rn_agg", "rn_not_agg"]:
 # rn_type = "rn_not_agg"
-    def p(gb):
+    def p(gb, rn_type, energy_type):
         list_gb = copy.deepcopy(columns)
         list_gb.remove("res")
         list_gb.remove(gb)
@@ -126,8 +126,9 @@ for rn_type in ["no_rn", "rn_agg", "rn_not_agg"]:
         res_cpt = 0
         all_res = []
         for key, pandas_vals in df.groupby(list_gb):
+            # if pandas_vals.values[0] in ["starchain", "tree"]: continue
             # results = sorted(pandas_vals.values, key=lambda val: val[-1]["time"].mean(), reverse=True)
-            vals_to_print = filter(lambda el: el[2] in [rn_type], pandas_vals.values)
+            vals_to_print = filter(lambda el: el[2] in [rn_type] and el[0] not in ["starchain", "tree"], pandas_vals.values)
             results = sorted(vals_to_print, key=lambda el: (net.index(el[0]), srv.index(el[1]), rn.index(el[2])))
             to_print = [key[0]]
             for res_num in range(len(results)):
@@ -156,7 +157,6 @@ for rn_type in ["no_rn", "rn_agg", "rn_not_agg"]:
                 to_print.append(to_str)
                 # to_str = f"{formatted_results[energy_type]}"
                 index = indexes.index((results[res_num][1], results[res_num][0]))
-                print(index)
                 if energy_type == "total":
                     div = 1000
                 elif energy_type == "time":
@@ -183,6 +183,6 @@ for rn_type in ["no_rn", "rn_agg", "rn_not_agg"]:
         print(columns)
 
 
-    p("size")
+    p("size", rn_type, energy_type)
 
 csvfile.close()
