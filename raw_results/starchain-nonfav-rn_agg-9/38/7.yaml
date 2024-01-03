@@ -1,0 +1,12 @@
+comms_cons: 11.158323199935573
+finished_reconf: true
+global_termination_time: 115203.371
+local_termination_time: 95177.87251999951
+node_cons: 2338.3067600000018
+tot_aggregated_send: 1624
+tot_msg_rcv: 19
+tot_msg_sent: 53
+tot_reconf_duration: 6.22
+tot_sleeping_duration: 113463.371
+tot_uptimes: 30
+tot_uptimes_duration: 1740.0
