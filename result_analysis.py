@@ -29,7 +29,7 @@ def get_df():
             "dynamic": [],
             "total": []
         }
-        for run_num in range(30):
+        for run_num in range(200):
             rel_run_num_dir = f"{rel_expe_dir}/{run_num}"
             if not exists(rel_run_num_dir) or len(os.listdir(rel_run_num_dir)) != int(size):
                 continue
