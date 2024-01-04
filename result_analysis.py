@@ -126,7 +126,22 @@ for energy_type in ["total", "dynamic", "time"]:
                         div = 3600
                     else:
                         div = 1
-                    csvwriter.writerow([results[res_num][0], results[res_num][3], f"{values[energy_type].mean()/div:.2f}", f"{values[energy_type].std()/div:.2f}", m[results[res_num][1]], m[rn_type], index])
+                    rn_pos = ""
+                    if rn_type == "no_rn":
+                        rn_pos = "No RN"
+                    if rn_type == "rn_agg":
+                        if results[res_num][1] == "fav":
+                            rn_pos = "best"
+                        if results[res_num][1] == "nonfav":
+                            rn_pos = "worst"
+                    if rn_type == "rn_not_agg":
+                        if results[res_num][1] == "fav":
+                            rn_pos = "worst"
+                        if results[res_num][1] == "nonfav":
+                            rn_pos = "best"
+                    if rn_pos == "":
+                        raise Exception("rn_pos none")
+                    csvwriter.writerow([results[res_num][0], results[res_num][3], f"{values[energy_type].mean()/div:.2f}", f"{values[energy_type].std()/div:.2f}", m[results[res_num][1]], rn_pos, index])
 
         p("size", rn_type, energy_type)
 
