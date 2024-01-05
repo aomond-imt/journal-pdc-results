@@ -4,6 +4,7 @@ venv/
 malformatted_results/
 raw_results_v0/
 raw_results_v1/
+raw_results_v2/
 *.tar.xz
 brouillon.py
 plots/
