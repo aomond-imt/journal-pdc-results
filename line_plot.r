@@ -2,7 +2,7 @@ library("ggplot2")
 library("dplyr")
 
 
-e = "dynamic"
+e = "total"
 for (t in c("No RN", "RN on agg", "RN not on agg")) {
     d <- read.csv(glue::glue("e_{e}.csv"))
     d<-d %>% filter(rn_type == t)
