@@ -1,91 +1,91 @@
 net_tplgy,size,energy_mean,energy_std,srv_tplgy,rn_type,srv_tplgy_index
-clique,9,275.72,33.30,best,No RN,0
-clique,9,275.72,33.30,worst,No RN,1
-star,9,466.14,140.97,best,No RN,2
-star,9,754.99,172.46,worst,No RN,3
-grid,9,599.45,145.65,best,No RN,4
-grid,9,750.76,123.94,worst,No RN,5
-ring,9,1237.32,232.09,best,No RN,6
-ring,9,1237.32,232.09,worst,No RN,7
-chain,9,1457.76,290.55,best,No RN,8
-chain,9,2433.00,455.34,worst,No RN,9
-clique,16,451.44,32.98,best,No RN,0
-clique,16,451.44,32.98,worst,No RN,1
-star,16,1010.84,271.90,best,No RN,2
-star,16,1666.22,405.07,worst,No RN,3
-grid,16,1447.26,235.86,best,No RN,4
-grid,16,1795.66,242.51,worst,No RN,5
-ring,16,4049.67,539.56,best,No RN,6
-ring,16,4049.67,539.56,worst,No RN,7
-chain,16,4661.14,900.11,best,No RN,8
-chain,16,7974.33,959.68,worst,No RN,9
-clique,25,695.91,44.37,best,No RN,0
-clique,25,695.91,44.37,worst,No RN,1
-star,25,1796.63,591.85,best,No RN,2
-star,25,2972.18,751.92,worst,No RN,3
-grid,25,2600.30,445.28,best,No RN,4
-grid,25,3534.59,390.57,worst,No RN,5
-ring,25,10050.06,1240.03,best,No RN,6
-ring,25,10050.06,1240.03,worst,No RN,7
-chain,25,11678.32,1409.72,best,No RN,8
-chain,25,20813.77,2387.35,worst,No RN,9
-clique,9,150.71,0.34,best,RN on agg,0
-clique,9,150.71,0.34,worst,RN on agg,1
-star,9,150.30,0.30,best,RN on agg,2
-star,9,543.45,199.90,worst,RN on agg,3
-grid,9,441.27,140.24,best,RN on agg,4
-grid,9,863.10,215.07,worst,RN on agg,5
-ring,9,1406.52,355.43,best,RN on agg,6
-ring,9,1406.52,355.43,worst,RN on agg,7
-chain,9,1653.34,426.94,best,RN on agg,8
-chain,9,2841.09,587.05,worst,RN on agg,9
-clique,16,264.59,0.59,best,RN on agg,0
-clique,16,264.59,0.59,worst,RN on agg,1
-star,16,263.32,0.36,best,RN on agg,2
-star,16,1150.29,326.72,worst,RN on agg,3
-grid,16,1615.94,355.93,best,RN on agg,4
-grid,16,1933.46,359.15,worst,RN on agg,5
-ring,16,4837.08,870.32,best,RN on agg,6
-ring,16,4837.08,870.32,worst,RN on agg,7
-chain,16,5628.47,1116.39,best,RN on agg,8
-chain,16,8658.42,933.84,worst,RN on agg,9
-clique,25,429.92,0.72,best,RN on agg,0
-clique,25,429.92,0.72,worst,RN on agg,1
-star,25,427.09,0.46,best,RN on agg,2
-star,25,1962.31,659.15,worst,RN on agg,3
-grid,25,2723.02,412.65,best,RN on agg,4
-grid,25,3635.17,599.97,worst,RN on agg,5
-ring,25,11255.10,1369.93,best,RN on agg,6
-ring,25,11255.10,1369.93,worst,RN on agg,7
-chain,25,13503.61,1654.10,best,RN on agg,8
-chain,25,21022.73,2091.68,worst,RN on agg,9
-clique,9,169.41,5.74,best,RN not on agg,0
-clique,9,169.41,5.74,worst,RN not on agg,1
-star,9,539.20,191.07,best,RN not on agg,2
-star,9,167.99,5.34,worst,RN not on agg,3
-grid,9,732.95,225.14,best,RN not on agg,4
-grid,9,735.74,245.23,worst,RN not on agg,5
-ring,9,1298.12,325.56,best,RN not on agg,6
-ring,9,1298.12,325.56,worst,RN not on agg,7
-chain,9,1728.53,421.04,best,RN not on agg,8
-chain,9,2674.51,532.09,worst,RN not on agg,9
-clique,16,303.16,9.59,best,RN not on agg,0
-clique,16,303.16,9.59,worst,RN not on agg,1
-star,16,1139.60,320.06,best,RN not on agg,2
-star,16,298.44,9.61,worst,RN not on agg,3
-grid,16,1620.80,296.35,best,RN not on agg,4
-grid,16,2049.54,398.07,worst,RN not on agg,5
-ring,16,4329.71,623.38,best,RN not on agg,6
-ring,16,4329.71,623.38,worst,RN not on agg,7
-chain,16,5249.50,1041.87,best,RN not on agg,8
-chain,16,8809.86,1350.44,worst,RN not on agg,9
-clique,25,496.60,14.76,best,RN not on agg,0
-clique,25,496.60,14.76,worst,RN not on agg,1
-star,25,1954.85,662.04,best,RN not on agg,2
-star,25,491.27,11.01,worst,RN not on agg,3
-grid,25,2879.55,494.17,best,RN not on agg,4
-grid,25,3744.25,565.25,worst,RN not on agg,5
-ring,25,10691.73,1355.59,best,RN not on agg,6
-ring,25,10691.73,1355.59,worst,RN not on agg,7
-chain,25,12539.02,1501.31,best,RN not on agg,8
-chain,25,17842.11,933.38,worst,RN not on agg,9
+clique,9,286.66,35.91,best,No RN,0
+clique,9,286.66,35.91,worst,No RN,1
+star,9,466.07,128.61,best,No RN,0
+star,9,831.55,229.80,worst,No RN,1
+grid,9,581.21,117.30,best,No RN,0
+grid,9,761.69,145.13,worst,No RN,1
+ring,9,1176.85,234.54,best,No RN,0
+ring,9,1176.85,234.54,worst,No RN,1
+chain,9,1427.78,304.81,best,No RN,0
+chain,9,2464.03,469.51,worst,No RN,1
+clique,16,453.09,32.74,best,No RN,0
+clique,16,453.09,32.74,worst,No RN,1
+star,16,974.46,230.84,best,No RN,0
+star,16,1664.70,359.93,worst,No RN,1
+grid,16,1401.15,253.61,best,No RN,0
+grid,16,1806.48,275.67,worst,No RN,1
+ring,16,4024.59,611.42,best,No RN,0
+ring,16,4024.59,611.42,worst,No RN,1
+chain,16,4656.13,842.63,best,No RN,0
+chain,16,8320.19,1185.14,worst,No RN,1
+clique,25,682.87,35.75,best,No RN,0
+clique,25,682.87,35.75,worst,No RN,1
+star,25,1704.57,425.94,best,No RN,0
+star,25,2891.00,660.92,worst,No RN,1
+grid,25,2536.08,391.01,best,No RN,0
+grid,25,3518.97,473.35,worst,No RN,1
+ring,25,9996.62,1307.44,best,No RN,0
+ring,25,9996.62,1307.44,worst,No RN,1
+chain,25,11417.57,1478.49,best,No RN,0
+chain,25,20686.73,2366.47,worst,No RN,1
+clique,9,150.67,0.31,best,best,2
+clique,9,150.67,0.31,worst,worst,5
+star,9,150.34,0.29,best,best,2
+star,9,555.53,174.76,worst,worst,5
+grid,9,445.83,147.18,best,best,2
+grid,9,820.54,217.20,worst,worst,5
+ring,9,1390.37,322.23,best,best,2
+ring,9,1390.37,322.23,worst,worst,5
+chain,9,1699.97,461.69,best,best,2
+chain,9,2828.63,560.72,worst,worst,5
+clique,16,264.57,0.55,best,best,2
+clique,16,264.57,0.55,worst,worst,5
+star,16,263.35,0.44,best,best,2
+star,16,1108.34,285.46,worst,worst,5
+grid,16,1576.39,399.73,best,best,2
+grid,16,1886.37,348.55,worst,worst,5
+ring,16,4676.91,789.75,best,best,2
+ring,16,4676.91,789.75,worst,worst,5
+chain,16,5506.36,1049.38,best,best,2
+chain,16,9094.33,1445.50,worst,worst,5
+clique,25,430.18,1.00,best,best,2
+clique,25,430.18,1.00,worst,worst,5
+star,25,426.95,0.52,best,best,2
+star,25,1880.07,505.45,worst,worst,5
+grid,25,2630.25,445.21,best,best,2
+grid,25,3614.51,530.36,worst,worst,5
+ring,25,11225.10,1517.56,best,best,2
+ring,25,11225.10,1517.56,worst,worst,5
+chain,25,12741.79,1766.92,best,best,2
+chain,25,21998.83,2715.55,worst,worst,5
+clique,9,169.85,5.54,best,worst,4
+clique,9,169.85,5.54,worst,best,3
+star,9,551.02,173.80,best,worst,4
+star,9,168.80,5.22,worst,best,3
+grid,9,741.87,190.55,best,worst,4
+grid,9,733.31,259.64,worst,best,3
+ring,9,1273.05,280.99,best,worst,4
+ring,9,1273.05,280.99,worst,best,3
+chain,9,1672.24,436.73,best,worst,4
+chain,9,2645.47,585.01,worst,best,3
+clique,16,302.98,9.86,best,worst,4
+clique,16,302.98,9.86,worst,best,3
+star,16,1096.10,276.47,best,worst,4
+star,16,300.33,8.96,worst,best,3
+grid,16,1555.91,274.65,best,worst,4
+grid,16,2048.38,379.71,worst,best,3
+ring,16,4236.61,655.81,best,worst,4
+ring,16,4236.61,655.81,worst,best,3
+chain,16,5286.42,1001.64,best,worst,4
+chain,16,9127.42,1498.90,worst,best,3
+clique,25,497.07,14.92,best,worst,4
+clique,25,497.07,14.92,worst,best,3
+star,25,1845.04,478.72,best,worst,4
+star,25,486.80,13.25,worst,best,3
+grid,25,2849.93,454.64,best,worst,4
+grid,25,3770.10,576.48,worst,best,3
+ring,25,10437.59,1400.13,best,worst,4
+ring,25,10437.59,1400.13,worst,best,3
+chain,25,12271.90,1617.81,best,worst,4
+chain,25,22198.15,2904.52,worst,best,3

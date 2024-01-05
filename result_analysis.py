@@ -99,6 +99,7 @@ m = {
 
 # indexes = [("fav","no_rn"), ("nonfav","no_rn"), ("fav","rn_agg"), ("nonfav","rn_agg"), ("fav","rn_not_agg"), ("nonfav","rn_not_agg")]
 indexes = [("fav","clique"), ("nonfav","clique"), ("fav","star"), ("nonfav","star"), ("fav","grid"), ("nonfav","grid"), ("fav","ring"), ("nonfav","ring"), ("fav","chain"), ("nonfav","chain")]
+indexes_rn = [("No RN", "fav"), ("No RN", "nonfav"), ("best", "fav"), ("best", "nonfav"), ("worst", "fav"), ("worst", "nonfav")]
 
 for energy_type in ["total", "dynamic", "time"]:
     csvfile_name = f"e_{energy_type}.csv"
@@ -118,7 +119,6 @@ for energy_type in ["total", "dynamic", "time"]:
                 vals_to_print = filter(lambda el: el[2] in [rn_type] and el[0] not in ["starchain", "tree"], pandas_vals.values)
                 results = sorted(vals_to_print, key=lambda el: (net.index(el[0]), srv.index(el[1]), rn.index(el[2])))
                 for res_num in range(len(results)):
-                    index = indexes.index((results[res_num][1], results[res_num][0]))
                     values = results[res_num][-1]
                     if energy_type == "total":
                         div = 1000
@@ -141,7 +141,9 @@ for energy_type in ["total", "dynamic", "time"]:
                             rn_pos = "best"
                     if rn_pos == "":
                         raise Exception("rn_pos none")
-                    csvwriter.writerow([results[res_num][0], results[res_num][3], f"{values[energy_type].mean()/div:.2f}", f"{values[energy_type].std()/div:.2f}", m[results[res_num][1]], rn_pos, index])
+                    index = indexes.index((results[res_num][1], results[res_num][0]))
+                    index_rn = indexes_rn.index((rn_pos, results[res_num][1]))
+                    csvwriter.writerow([results[res_num][0], results[res_num][3], f"{values[energy_type].mean()/div:.2f}", f"{values[energy_type].std()/div:.2f}", m[results[res_num][1]], rn_pos, index_rn])
 
         p("size", rn_type, energy_type)
 
